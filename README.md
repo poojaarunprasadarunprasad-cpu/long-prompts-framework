@@ -1,54 +1,57 @@
-# Lecture-notes-template
-A fill-in-the-blank template that turns any topic into structured lecture notes, using AI to do the structure work so you can add the personality.
-# 📝 Lecture Notes Template
+🎯 THE ROCIEVN FRAMEWORK BREAKDOWN
 
-Cut lecture-note prep from **10 hours to 30 minutes**. This template handles the structure; you add the personality and expertise.
+1.R = ROLE
+"Who should the AI act as?"
+Define a specific, credible persona or a one who is specilized in one particular field.
 
-## Why this exists
+EXAMPLE:
+❌ WEAK: "Explain coding"
+✅ STRONG: "Act as a Senior Software Engineer at Google with 12 years of experience in system design"
 
-Writing lecture notes is important, but it's slow, and students often half-read them. A consistent template removes the structure work so you can focus on teaching.
+2.O = OBJECTIVE
+"What exactly do you want?"
+Be clear on what you will asking to the AI model.
 
-## How to use it
+EXAMPLE:
+❌ WEAK: "Help me with a project"
+✅ STRONG: "Help me design a scalable API that handles 1M concurrent users with <200ms latency"
 
-1. **Fill in the basics** (3 min): topic, duration, learning objective.
-2. **Paste into an AI assistant** with the prompt: `Fill this template for [topic]`
-3. **Review and customize** (15 min): add your own stories and examples.
-4. **Share with students** before class.
-5. **Students read first**, so class time goes to discussion.
+3.C = CONTEXT
+"What's the background situation?"
+Provide constraints, limitations, requirements.
 
-The template itself is in [`lecture-notes-template.md`](lecture-notes-template.md).
+EXAMPLE:
+❌ WEAK: "Design a system"
+✅ STRONG: "We're a startup with 5 engineers, $2M budget, and must launch in 6 months. We use Python/Django. We need to compete with Slack."
 
-## What changes
+4.I = INSTRUCTIONS
+"HOW should they approach it?"
+Give the step-by-step methodology.
 
-- ✅ Students have notes before class, which boosts engagement
-- ✅ You spend ~30 minutes instead of ~10 hours
-- ✅ Notes are consistent and well-structured
-- ✅ You add personality without writing from scratch
-- ✅ Check-your-understanding questions force active learning
+EXAMPLE:
+❌ WEAK: "Tell me the steps"
+✅ STRONG: "Break this into: 1) Architecture decisions, 2) Tech stack rationale, 3) Timeline, 4) Risks and mitigations"
 
-## Bonus benefits
+5.E = EXAMPLES
+"Show what good looks like"
+Provide 2-3 examples of the quality/format you expect.
 
-- Notes double as discussion prompts
-- Students ask better questions because they have context
-- Office hours get shorter
+EXAMPLES:
+❌ WEAK: "Give examples"
+✅ STRONG: "[Provide 2 existing systems] This is the level of depth I need. Similar scope but for my use case."
 
-## Works for
+6.V = VARIABLES
+"What's specific to MY situation?"
+Include actual data, constraints, specifics.
 
-- Lecture notes
-- Tutorial content
-- Concept explanations
-- Lab instructions
-- Project briefs
+EXAMPLE"
+❌ WEAK: "For any project"
+✅ STRONG: "My specific constraints: 100GB dataset, 50ms response time, budget=$5K, team size=3"
 
-## Philosophy
+7.N = NOTES
+"What should you avoid or prioritize?"
+Call out preferences, pitfalls, red lines.
 
-> The template removes **structure** work.
-> You add **personality** and **expertise**.
-
-## Contributing
-
-Have an improved version or one for a different subject? Open a pull request.
-
-## License
-
-MIT
+EXAMPLES:
+❌ WEAK: "Do your best"
+✅ STRONG: "Avoid over-engineering. Prioritize time-to-launch. Don't recommend cloud solutions—we need on-premise."
